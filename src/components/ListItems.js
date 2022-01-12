@@ -13,6 +13,7 @@ import ArticleOutlinedIcon from "@mui/icons-material/ArticleOutlined";
 
 export const mainListItems = (
 	<div>
+		<ListSubheader inset>Reports</ListSubheader>
 		<ListItem button>
 			<ListItemIcon>
 				<DashboardIcon />

@@ -24,6 +24,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import SettingsIcon from "@mui/icons-material/Settings";
 import AccountCircle from "@mui/icons-material/AccountCircle";
 import PeopleOutlineIcon from "@mui/icons-material/PeopleOutline";
+import Heads from "../components/Heads";
 
 function Copyright(props) {
 	return (
@@ -201,6 +202,7 @@ function DashboardContent() {
 						overflow: "auto",
 					}}
 				>
+					<Heads />
 					<Toolbar />
 					<Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
 						<Grid container spacing={3}>
